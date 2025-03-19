@@ -109,11 +109,10 @@ python3 main.py $query</string>
 		</dict>
 	</array>
 	<key>readme</key>
-	<string>Alfred's Script Filter object is extremely powerful, and gives you control over the results displayed in Alfred.
+	<string>Alfred workflow to open recent folders in Visual Studio Code. (Same as VSCode's `Open Recent...`)
 
-Alfred uses JSON for the Script Filter output, which is the recommended format. XML is also supported for legacy Alfred workflows.
-
-If the result set is static, use the "Alfred filters results" option. This allows you to return a whole list of results then let Alfred do the subsequent filtering with extreme performance. When this option is selected, your script will be called once with no argument.</string>
+## Usage
+type `code`.</string>
 	<key>uidata</key>
 	<dict>
 		<key>50B0CD10-4D52-4898-9C05-DD3A34A829C3</key>
@@ -136,7 +135,7 @@ If the result set is static, use the "Alfred filters results" option. This allow
 	<key>variablesdontexport</key>
 	<array/>
 	<key>version</key>
-	<string>1.1</string>
+	<string>1.0</string>
 	<key>webaddress</key>
 	<string>https://www.alfredapp.com</string>
 </dict>
